@@ -39,11 +39,11 @@ function sillyStoryGenerator () {
 	  
 	if(us.checked == true){
 		sillyStory = sillyStory.replace('34 celsius','94 farenheit');
-		sillyStory = sillyStory.replace('300 pounds','136 kilograms');
+		sillyStory = sillyStory.replace('136 kilograms','300 pounds');
 	};
 	if(uk.checked == true){
 		sillyStory = sillyStory.replace('94 farenheit','34 celsius');
-		sillyStory = sillyStory.replace('136 kilograms','300 pounds');
+		sillyStory = sillyStory.replace('300 pounds','136 kilograms');
 	};
 
 	story.style.visibility = 'visible';
